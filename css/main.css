@@ -1,5 +1,9 @@
-body {
+html body {
   background-color: #fdf6e3;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 header, footer {
