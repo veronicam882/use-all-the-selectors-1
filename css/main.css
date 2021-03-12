@@ -1,5 +1,6 @@
-html body {
+html {
   background-color: #fdf6e3;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -10,7 +11,7 @@ header, footer {
   font-size: 1.5rem;
 }
 
-nav ul{
+nav ul {
   font-family: sans-serif;
 }
 
@@ -30,7 +31,7 @@ nav ul{
   background-color: #b58900;
 }
 
-.dfn > strong:nth-child(2){
+.dfn > strong:nth-child(2) {
   color: #fff;
 }
 
